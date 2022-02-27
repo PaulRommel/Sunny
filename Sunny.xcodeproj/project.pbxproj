@@ -14,6 +14,8 @@
 		352AD26A2403FA5800FE672A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 352AD2692403FA5800FE672A /* Assets.xcassets */; };
 		352AD26D2403FA5800FE672A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352AD26B2403FA5800FE672A /* LaunchScreen.storyboard */; };
 		352AD27B2404DD6600FE672A /* ViewController+alertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AD27A2404DD6600FE672A /* ViewController+alertController.swift */; };
+		A0C3B86927CB7D6D00BEDA6D /* NetworkWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C3B86827CB7D6D00BEDA6D /* NetworkWeatherManager.swift */; };
+		A0C3B86B27CB7F7600BEDA6D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C3B86A27CB7F7600BEDA6D /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		352AD26C2403FA5800FE672A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		352AD26E2403FA5800FE672A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		352AD27A2404DD6600FE672A /* ViewController+alertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+alertController.swift"; sourceTree = "<group>"; };
+		A0C3B86827CB7D6D00BEDA6D /* NetworkWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWeatherManager.swift; sourceTree = "<group>"; };
+		A0C3B86A27CB7F7600BEDA6D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 		352AD2742404048C00FE672A /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
+				A0C3B86A27CB7F7600BEDA6D /* Constants.swift */,
 				352AD2602403FA5700FE672A /* AppDelegate.swift */,
 				352AD2622403FA5700FE672A /* SceneDelegate.swift */,
 				352AD2692403FA5800FE672A /* Assets.xcassets */,
@@ -89,6 +94,7 @@
 		352AD276240404B800FE672A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A0C3B86827CB7D6D00BEDA6D /* NetworkWeatherManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -137,7 +143,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1320;
 				ORGANIZATIONNAME = "Ivan Akulov";
 				TargetAttributes = {
 					352AD25C2403FA5700FE672A = {
@@ -183,8 +189,10 @@
 			files = (
 				352AD2652403FA5700FE672A /* ViewController.swift in Sources */,
 				352AD27B2404DD6600FE672A /* ViewController+alertController.swift in Sources */,
+				A0C3B86927CB7D6D00BEDA6D /* NetworkWeatherManager.swift in Sources */,
 				352AD2612403FA5700FE672A /* AppDelegate.swift in Sources */,
 				352AD2632403FA5700FE672A /* SceneDelegate.swift in Sources */,
+				A0C3B86B27CB7F7600BEDA6D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +244,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -296,6 +305,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
